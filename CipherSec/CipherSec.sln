@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherSec", "CipherSec\CipherSec.csproj", "{7D0E61E3-34A7-48EF-A65C-8C8C6D9F0A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherSecBase", "CipherSecBase\CipherSecBase.csproj", "{1E68B5C6-625F-4822-8D46-EFAF617D1AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherSecCore", "CipherSecCore\CipherSecCore.csproj", "{2DD59340-F48D-4D79-8C84-019E3C22F0BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D0E61E3-34A7-48EF-A65C-8C8C6D9F0A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0E61E3-34A7-48EF-A65C-8C8C6D9F0A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0E61E3-34A7-48EF-A65C-8C8C6D9F0A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0E61E3-34A7-48EF-A65C-8C8C6D9F0A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E68B5C6-625F-4822-8D46-EFAF617D1AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E68B5C6-625F-4822-8D46-EFAF617D1AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E68B5C6-625F-4822-8D46-EFAF617D1AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E68B5C6-625F-4822-8D46-EFAF617D1AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD59340-F48D-4D79-8C84-019E3C22F0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD59340-F48D-4D79-8C84-019E3C22F0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD59340-F48D-4D79-8C84-019E3C22F0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD59340-F48D-4D79-8C84-019E3C22F0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
