@@ -8,5 +8,6 @@ namespace CipherSecCore
 {
     public class Class1
     {
+
     }
 }
