@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CipherSec
 {
-    public partial class Form1 : Form
+    public partial class CipherSecMain : Form
     {
-        public Form1()
+        public CipherSecMain()
         {
             InitializeComponent();
         }
