@@ -34,6 +34,7 @@
       <HintPath>..\External Libraries\Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,9 +46,15 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="CompressionSubsystem\CompressionManager.cs" />
+    <Compile Include="Cryptographic Subsystem\CryptographicHelper.cs" />
+    <Compile Include="Cryptographic Subsystem\CryptographicManager.cs" />
+    <Compile Include="Cryptographic Subsystem\DecryptionEngine.cs" />
+    <Compile Include="Cryptographic Subsystem\EncryptionEngine.cs" />
     <Compile Include="FileSubsystem\FileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SerializationSubsystem\BinarySerializer.cs" />
+    <Compile Include="Utilities\ConfigKeys.cs" />
+    <Compile Include="Utilities\Helper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

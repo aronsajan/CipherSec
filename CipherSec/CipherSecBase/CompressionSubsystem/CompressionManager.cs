@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CipherSecBase.CompressionSubsystem
 {
-    class CompressionManager
+   public class CompressionManager
     {
         public static void CompressDirectory(String DirectoryPath, String CompressOutputFile)
         {

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CipherSecBase.SerializationSubsystem
 {
-    class BinarySerializer<SerializationType>
+    public class BinarySerializer<SerializationType>
     {
         public byte[] SerializeData(SerializationType DataObject)
         {

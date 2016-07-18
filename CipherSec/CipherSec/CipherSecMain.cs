@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using CipherSecCore.SecureDirectory;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,12 @@ namespace CipherSec
         public CipherSecMain()
         {
             InitializeComponent();
+        }
+
+        private void CipherSecMain_Load(object sender, EventArgs e)
+        {
+            DirectoryLock dirLock= new DirectoryLock(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip");
+            dirLock.LockDirectory();
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CipherSecBase.FileSubsystem
 {
-    class FileManager
+    public class FileManager
     {
         public static void WriteData(byte[] Data, String Filename)
         {
