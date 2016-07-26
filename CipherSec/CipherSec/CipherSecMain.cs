@@ -1,5 +1,6 @@
 ﻿
 using CipherSecCore.SecureDirectory;
+using CipherSecCore.SecureUnlock;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,8 +22,10 @@ namespace CipherSec
 
         private void CipherSecMain_Load(object sender, EventArgs e)
         {
-            DirectoryLock dirLock= new DirectoryLock(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip");
-            dirLock.LockDirectory();
+           DirectoryLock dirLock= new DirectoryLock(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip","Test");
+          dirLock.LockDirectory();
+            FileDecrypter lckDecrypter = new FileDecrypter(@"C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\Temp Directory\Ionic Zip.lck", "Test", @"C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\Temp Directory\");
+            lckDecrypter.UnlockLCKFile();
         }
     }
 }

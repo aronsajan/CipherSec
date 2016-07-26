@@ -51,11 +51,12 @@
     <Compile Include="OperationResponse\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecureDirectory\DirectoryLock.cs" />
+    <Compile Include="SecureDirectory\DirectoryUnlock.cs" />
+    <Compile Include="SecureDirectory\Encrypt\DirectoryEncrypter.cs" />
     <Compile Include="SecureDirectory\SecureDirectoryManager.cs" />
+    <Compile Include="SecureUnlock\FileDecrypter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SecureDirectory\Decrypt\" />
-    <Folder Include="SecureDirectory\Encrypt\" />
     <Folder Include="SecureFile\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

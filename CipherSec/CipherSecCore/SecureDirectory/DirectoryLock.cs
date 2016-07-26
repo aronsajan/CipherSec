@@ -2,6 +2,7 @@
 using CipherSecBase.FileSubsystem;
 using CipherSecBase.Utilities;
 using CipherSecCore.Header;
+using CipherSecCore.SecureDirectory.Encrypt;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -15,13 +16,20 @@ namespace CipherSecCore.SecureDirectory
     {
         HeaderManager HeaderCreator = new HeaderManager();
         FileStream writeStream;
-        public DirectoryLock(String directoryPath)
+        public DirectoryLock(String directoryPath, String Password)
         {
             DirectoryPath = directoryPath;
             writeStream = new FileStream(TempFilename, FileMode.Create, FileAccess.Write);
+            LockPassword = Password;
         }
 
         String DirectoryPath
+        {
+            get;
+            set;
+        }
+
+        String LockPassword
         {
             get;
             set;
@@ -78,6 +86,10 @@ namespace CipherSecCore.SecureDirectory
             AttachDirectoryBinary(CompressedFilename);
             File.Delete(CompressedFilename);
             DataWriter.Close();
+            DirectoryEncrypter EncryptDir = new DirectoryEncrypter();
+            String EncryptedFile = EncryptDir.EncryptDirectory(TempFilename, LockPassword);
+            File.Delete(TempFilename);
+            
 
         }
 

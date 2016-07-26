@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace CipherSecBase.Cryptographic_Subsystem
 {
-    class CryptographicManager
+    public class CryptographicManager
     {
+
+        public virtual void EncryptFile(String SourceFile, String OutputFile, String Password)
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual void DecryptFile(String SourceFile, String OutputFile, String Password)
+        {
+            throw new NotImplementedException();
+        }
+       
     }
 }
