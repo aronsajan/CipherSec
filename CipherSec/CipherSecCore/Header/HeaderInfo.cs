@@ -33,11 +33,11 @@ namespace CipherSecCore.Header
             }
         }
 
-        public int HeaderLength
+        public Int32 HeaderLength
         {
             get
             {
-                return HeaderBinary.Length;
+                return (Int32)HeaderBinary.Length;
             }
         }
     }

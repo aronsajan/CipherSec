@@ -1,5 +1,6 @@
 ﻿using CipherSecBase.CompressionSubsystem;
 using CipherSecBase.Utilities;
+using CipherSecCommon.StatusCommunicator;
 using CipherSecCore.Header;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,13 @@ namespace CipherSecCore.SecureDirectory
     class DirectoryUnlock
     {
         string targetFile;
-        public DirectoryUnlock(String TMPFile, HeaderInfo TMPHeader, String TargetLocation)
+        StatusRelay statusRelay;
+        public DirectoryUnlock(String TMPFile, HeaderInfo TMPHeader, String TargetLocation, StatusRelay StatusCommunicate)
         {
             DirectoryHeader = TMPHeader;
             TMPFilename = TMPFile;
             targetFile = TargetLocation + TMPHeader.EntityName;
+            statusRelay = StatusCommunicate;
             
         }
 
@@ -32,6 +35,14 @@ namespace CipherSecCore.SecureDirectory
             get
             {
                 return targetFile;
+            }
+        }
+
+        public StatusRelay StatusCommunicate
+        {
+            get
+            {
+                return statusRelay;
             }
         }
 
@@ -52,10 +63,15 @@ namespace CipherSecCore.SecureDirectory
 
         public void UnlockDirectory()
         {
+            StatusCommunicate("Extracting payload directory contents", 50);
             ExtractPayloadZIP();
+            StatusCommunicate("Directory information extracted", 60);
             File.Delete(TMPFilename);
+            StatusCommunicate("Decompressing directory contents", 90);
             CompressionManager.DecompressDirectory(ZipFilename, TargetFile);
+            StatusCommunicate("Directory moved to larget location as "+TargetFile, 95);
             File.Delete(ZipFilename);
+            StatusCommunicate("Process completed", 100);
         }
 
         private void ExtractPayloadZIP()

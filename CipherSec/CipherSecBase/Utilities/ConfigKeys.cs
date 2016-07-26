@@ -10,5 +10,6 @@ namespace CipherSecBase.Utilities
     {
         public static String TempDirectory = "TempDirectory";
         public static String ReaderBufferSize = "ReaderBufferSize";
+        public static String DeleteSource = "DeleteSource";
     }
 }

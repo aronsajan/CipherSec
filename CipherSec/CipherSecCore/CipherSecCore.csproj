@@ -33,6 +33,9 @@
     <Reference Include="CipherSecBase">
       <HintPath>..\CipherSecBase\bin\Debug\CipherSecBase.dll</HintPath>
     </Reference>
+    <Reference Include="CipherSecCommon">
+      <HintPath>..\CipherSecCommon\bin\Debug\CipherSecCommon.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Encrypt\Encrypter.cs" />
     <Compile Include="Header\HeaderInfo.cs" />
     <Compile Include="Header\HeaderManager.cs" />
     <Compile Include="IDirectorySecure.cs" />
@@ -52,13 +56,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecureDirectory\DirectoryLock.cs" />
     <Compile Include="SecureDirectory\DirectoryUnlock.cs" />
-    <Compile Include="SecureDirectory\Encrypt\DirectoryEncrypter.cs" />
     <Compile Include="SecureDirectory\SecureDirectoryManager.cs" />
+    <Compile Include="SecureFile\FileLock.cs" />
+    <Compile Include="SecureFile\FileUnlock.cs" />
     <Compile Include="SecureUnlock\FileDecrypter.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SecureFile\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,8 +1,10 @@
 ﻿using CipherSecBase.Cryptographic_Subsystem;
 using CipherSecBase.SerializationSubsystem;
 using CipherSecBase.Utilities;
+using CipherSecCommon.StatusCommunicator;
 using CipherSecCore.Header;
 using CipherSecCore.SecureDirectory;
+using CipherSecCore.SecureFile;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,11 +16,13 @@ namespace CipherSecCore.SecureUnlock
 {
     public class FileDecrypter
     {
-        public FileDecrypter(String EncryptedFilename, String Password, String TargetLocation)
+        StatusRelay statusRelay;
+        public FileDecrypter(String EncryptedFilename, String Password, String TargetLocation, StatusRelay StatusCommunicate)
         {
             DecryptPassword = Password;
             EncryptedFile = EncryptedFilename;
             this.TargetLocation = TargetLocation;
+            statusRelay = StatusCommunicate;
         }
 
         String LCKFilename
@@ -47,6 +51,14 @@ namespace CipherSecCore.SecureUnlock
             set;
         }
 
+        StatusRelay StatusCommunicate
+        {
+            get
+            {
+                return statusRelay;
+            }
+        }
+
         String TMPFilename
         {
             get
@@ -60,18 +72,26 @@ namespace CipherSecCore.SecureUnlock
 
         public void UnlockLCKFile()
         {
+            StatusCommunicate("Decrypting File", 5);
             DecryptFile();
+            StatusCommunicate("File Decryption Completed", 40);
             int HeaderLen = GetHeaderLength();
             HeaderInfo TMPHeader = GetHeader(HeaderLen);
-           if(TMPHeader.IsDirectory)
+            StatusCommunicate("Header information extracted", 50);
+            if (TMPHeader.IsDirectory)
             {
                 //Routine goes to directory unlocker
-                DirectoryUnlock DirUnlock = new DirectoryUnlock(TMPFilename, TMPHeader, TargetLocation);
+                StatusCommunicate("Locked entity identified to be directory "+TMPHeader.EntityName, 50);
+                DirectoryUnlock DirUnlock = new DirectoryUnlock(TMPFilename, TMPHeader, TargetLocation, StatusCommunicate);
                 DirUnlock.UnlockDirectory();
             }
            else
             {
                 //Routine goes to file unlocker
+                StatusCommunicate("Locked entity identified to be file " + TMPHeader.EntityName, 50);
+                FileUnlock fileUnlock = new FileUnlock(TMPFilename, TMPHeader, TargetLocation, StatusCommunicate);
+                fileUnlock.UnlockFile();
+            
             }
             
         }
@@ -80,8 +100,10 @@ namespace CipherSecCore.SecureUnlock
         {
             String OutputFilename = TMPFilename;
             CryptographicManager DecryptionManager = new DecryptionEngine();
+            
             DecryptionManager.DecryptFile(EncryptedFile, OutputFilename, DecryptPassword);
- 
+          
+
         }
 
         private int GetHeaderLength()

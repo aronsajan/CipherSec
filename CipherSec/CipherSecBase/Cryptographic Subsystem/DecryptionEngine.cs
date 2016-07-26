@@ -1,4 +1,5 @@
 ﻿using CipherSecBase.Utilities;
+using CipherSecCommon.CommonExceptions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -20,23 +21,29 @@ namespace CipherSecBase.Cryptographic_Subsystem
             byte[] IV = CryptographicHelper.GetPasswordHash(PasswordRAW);
             AESCrypter.KeySize = Key.Length*8;
             AESCrypter.BlockSize = Key.Length*8;
-
-            using (FileStream Reader = new FileStream(SourceFile, FileMode.Open, FileAccess.Read))
+            try
             {
-                using (FileStream Writer = new FileStream(OutputFile, FileMode.Create, FileAccess.Write))
+                using (FileStream Reader = new FileStream(SourceFile, FileMode.Open, FileAccess.Read))
                 {
-                    using (CryptoStream CryptoWriter = new CryptoStream(Writer, AESCrypter.CreateDecryptor(Key,IV), CryptoStreamMode.Write))
+                    using (FileStream Writer = new FileStream(OutputFile, FileMode.Create, FileAccess.Write))
                     {
-                        int BUFFER_SIZE = int.Parse(Helper.GetConfigurationValue(ConfigKeys.ReaderBufferSize));
-                        byte[] ReadBuffer = new byte[BUFFER_SIZE];
-                        int bytesRead = 0;
-                        while ((bytesRead = Reader.Read(ReadBuffer, 0, BUFFER_SIZE)) > 0)
+                        using (CryptoStream CryptoWriter = new CryptoStream(Writer, AESCrypter.CreateDecryptor(Key, IV), CryptoStreamMode.Write))
                         {
-                            CryptoWriter.Write(ReadBuffer, 0, bytesRead);
-                        }
+                            int BUFFER_SIZE = int.Parse(Helper.GetConfigurationValue(ConfigKeys.ReaderBufferSize));
+                            byte[] ReadBuffer = new byte[BUFFER_SIZE];
+                            int bytesRead = 0;
+                            while ((bytesRead = Reader.Read(ReadBuffer, 0, BUFFER_SIZE)) > 0)
+                            {
+                                CryptoWriter.Write(ReadBuffer, 0, bytesRead);
+                            }
 
+                        }
                     }
                 }
+            }
+            catch(Exception Ex)
+            {
+                throw new DecryptionFailedException();
             }
 
 

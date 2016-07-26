@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CipherSecBase
+namespace CipherSecCommon.StatusCommunicator
 {
-    public class Class1
-    {
-    }
+    public delegate void StatusRelay(String Message, double PercentCompleted);
 }
