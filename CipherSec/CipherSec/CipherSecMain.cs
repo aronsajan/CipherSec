@@ -22,9 +22,9 @@ namespace CipherSec
 
         private void CipherSecMain_Load(object sender, EventArgs e)
         {
-           DirectoryLock dirLock= new DirectoryLock(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip","Test");
-          dirLock.LockDirectory();
-            FileDecrypter lckDecrypter = new FileDecrypter(@"C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\Temp Directory\Ionic Zip.lck", "Test", @"C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\Temp Directory\");
+          // DirectoryLock dirLock= new DirectoryLock(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip","Test");
+            //dirLock.LockDirectory();
+            FileDecrypter lckDecrypter = new FileDecrypter(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip.lck", "Test", @"C: \Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip New\");
             lckDecrypter.UnlockLCKFile();
         }
     }

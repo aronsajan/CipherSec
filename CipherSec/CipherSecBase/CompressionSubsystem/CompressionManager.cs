@@ -22,5 +22,13 @@ namespace CipherSecBase.CompressionSubsystem
                 zip.Save(CompressOutputFile);
             }
         }
+
+        public static void DecompressDirectory(String ZipPath, String TargetFile)
+        {
+            using (ZipFile zip = ZipFile.Read(ZipPath))
+            {
+                zip.ExtractAll(TargetFile, ExtractExistingFileAction.DoNotOverwrite);
+            }
+        }
     }
 }

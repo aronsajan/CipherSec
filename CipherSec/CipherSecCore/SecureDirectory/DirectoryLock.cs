@@ -29,6 +29,14 @@ namespace CipherSecCore.SecureDirectory
             set;
         }
 
+        String DirectoryParent
+        {
+            get
+            {
+                return Path.GetDirectoryName(DirectoryPath);
+            }
+        }
+
         String LockPassword
         {
             get;
@@ -89,7 +97,8 @@ namespace CipherSecCore.SecureDirectory
             DirectoryEncrypter EncryptDir = new DirectoryEncrypter();
             String EncryptedFile = EncryptDir.EncryptDirectory(TempFilename, LockPassword);
             File.Delete(TempFilename);
-            
+            String FinalPath = DirectoryParent + "\\" + Path.GetFileName(EncryptedFile);
+            File.Move(EncryptedFile, FinalPath);
 
         }
 

@@ -1,4 +1,5 @@
-﻿using CipherSecBase.Utilities;
+﻿using CipherSecBase.CompressionSubsystem;
+using CipherSecBase.Utilities;
 using CipherSecCore.Header;
 using System;
 using System.Collections.Generic;
@@ -11,10 +12,12 @@ namespace CipherSecCore.SecureDirectory
 {
     class DirectoryUnlock
     {
+        string targetFile;
         public DirectoryUnlock(String TMPFile, HeaderInfo TMPHeader, String TargetLocation)
         {
             DirectoryHeader = TMPHeader;
             TMPFilename = TMPFile;
+            targetFile = TargetLocation + TMPHeader.EntityName;
             
         }
 
@@ -22,6 +25,14 @@ namespace CipherSecCore.SecureDirectory
         {
             get;
             set;
+        }
+
+        public String TargetFile
+        {
+            get
+            {
+                return targetFile;
+            }
         }
 
         String TMPFilename
@@ -43,6 +54,8 @@ namespace CipherSecCore.SecureDirectory
         {
             ExtractPayloadZIP();
             File.Delete(TMPFilename);
+            CompressionManager.DecompressDirectory(ZipFilename, TargetFile);
+            File.Delete(ZipFilename);
         }
 
         private void ExtractPayloadZIP()

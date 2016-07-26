@@ -14,7 +14,7 @@ namespace CipherSecCore.SecureDirectory.Encrypt
             String SourceFile = UnifiedDirectoryFile.Substring(0, UnifiedDirectoryFile.Length - 4);
             CryptographicManager EncryptionManager = new EncryptionEngine();
             EncryptionManager.EncryptFile(UnifiedDirectoryFile, String.Format("{0}.lck", SourceFile), Password);
-            return SourceFile;
+            return (SourceFile+".lck");
 
         }
     }
