@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CipherSecBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CipherSecBase\bin\Debug\CipherSecBase.dll</HintPath>
+    </Reference>
     <Reference Include="CipherSecCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CipherSecCommon\bin\Debug\CipherSecCommon.dll</HintPath>
@@ -59,10 +63,19 @@
     <Compile Include="CipherSecMain.Designer.cs">
       <DependentUpon>CipherSecMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommandLineUnlockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommandLineUnlockForm.Designer.cs">
+      <DependentUpon>CommandLineUnlockForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CipherSecMain.resx">
       <DependentUpon>CipherSecMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommandLineUnlockForm.resx">
+      <DependentUpon>CommandLineUnlockForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

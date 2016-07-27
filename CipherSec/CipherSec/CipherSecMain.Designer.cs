@@ -34,33 +34,33 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.TxtDirLockPassword = new System.Windows.Forms.TextBox();
+            this.BtnLockDirectory = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.ButtonDirectorySelect = new System.Windows.Forms.Button();
+            this.TextSelectedDirectory = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.TxtUnlockPassword = new System.Windows.Forms.TextBox();
+            this.BtnSelectUnlockDest = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.TxtUnlockDestination = new System.Windows.Forms.TextBox();
+            this.BtnUnlock = new System.Windows.Forms.Button();
+            this.BtnSelectLockedFile = new System.Windows.Forms.Button();
+            this.TextUnlockFile = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.TxtFileLockPassword = new System.Windows.Forms.TextBox();
+            this.BtnLockFile = new System.Windows.Forms.Button();
+            this.BtnFileSelect = new System.Windows.Forms.Button();
+            this.TxtLockFile = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.TextLog = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.ProgressBar = new System.Windows.Forms.ProgressBar();
             this.LabelProgessPercent = new System.Windows.Forms.Label();
-            this.TextSelectedDirectory = new System.Windows.Forms.TextBox();
-            this.ButtonDirectorySelect = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.BtnLockDirectory = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.TxtLockFile = new System.Windows.Forms.TextBox();
-            this.BtnFileSelect = new System.Windows.Forms.Button();
-            this.BtnLockFile = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.TextUnlockFile = new System.Windows.Forms.TextBox();
-            this.BtnSelectLockedFile = new System.Windows.Forms.Button();
-            this.BtnUnlock = new System.Windows.Forms.Button();
-            this.TxtUnlockDestination = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.BtnSelectUnlockDest = new System.Windows.Forms.Button();
-            this.TxtUnlockPassword = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.TxtFileLockPassword = new System.Windows.Forms.TextBox();
-            this.TxtDirLockPassword = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.DirectorySelectionDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.FileSelectionDialog = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
@@ -123,6 +123,59 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lock Directory";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(10, 99);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(78, 20);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Password";
+            // 
+            // TxtDirLockPassword
+            // 
+            this.TxtDirLockPassword.Location = new System.Drawing.Point(94, 94);
+            this.TxtDirLockPassword.Name = "TxtDirLockPassword";
+            this.TxtDirLockPassword.Size = new System.Drawing.Size(360, 26);
+            this.TxtDirLockPassword.TabIndex = 4;
+            this.TxtDirLockPassword.UseSystemPasswordChar = true;
+            // 
+            // BtnLockDirectory
+            // 
+            this.BtnLockDirectory.Location = new System.Drawing.Point(6, 128);
+            this.BtnLockDirectory.Name = "BtnLockDirectory";
+            this.BtnLockDirectory.Size = new System.Drawing.Size(167, 33);
+            this.BtnLockDirectory.TabIndex = 3;
+            this.BtnLockDirectory.Text = "Lock Directory";
+            this.BtnLockDirectory.UseVisualStyleBackColor = true;
+            this.BtnLockDirectory.Click += new System.EventHandler(this.BtnLockDirectory_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(121, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Select Directory";
+            // 
+            // ButtonDirectorySelect
+            // 
+            this.ButtonDirectorySelect.Location = new System.Drawing.Point(472, 59);
+            this.ButtonDirectorySelect.Name = "ButtonDirectorySelect";
+            this.ButtonDirectorySelect.Size = new System.Drawing.Size(40, 32);
+            this.ButtonDirectorySelect.TabIndex = 1;
+            this.ButtonDirectorySelect.Text = "...";
+            this.ButtonDirectorySelect.UseVisualStyleBackColor = true;
+            this.ButtonDirectorySelect.Click += new System.EventHandler(this.ButtonDirectorySelect_Click);
+            // 
+            // TextSelectedDirectory
+            // 
+            this.TextSelectedDirectory.Location = new System.Drawing.Point(6, 62);
+            this.TextSelectedDirectory.Name = "TextSelectedDirectory";
+            this.TextSelectedDirectory.Size = new System.Drawing.Size(448, 26);
+            this.TextSelectedDirectory.TabIndex = 0;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label6);
@@ -141,6 +194,85 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Unlock Entity";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(13, 118);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 20);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Password";
+            // 
+            // TxtUnlockPassword
+            // 
+            this.TxtUnlockPassword.Location = new System.Drawing.Point(94, 116);
+            this.TxtUnlockPassword.Name = "TxtUnlockPassword";
+            this.TxtUnlockPassword.Size = new System.Drawing.Size(513, 26);
+            this.TxtUnlockPassword.TabIndex = 7;
+            this.TxtUnlockPassword.UseSystemPasswordChar = true;
+            // 
+            // BtnSelectUnlockDest
+            // 
+            this.BtnSelectUnlockDest.Location = new System.Drawing.Point(997, 66);
+            this.BtnSelectUnlockDest.Name = "BtnSelectUnlockDest";
+            this.BtnSelectUnlockDest.Size = new System.Drawing.Size(38, 36);
+            this.BtnSelectUnlockDest.TabIndex = 6;
+            this.BtnSelectUnlockDest.Text = "...";
+            this.BtnSelectUnlockDest.UseVisualStyleBackColor = true;
+            this.BtnSelectUnlockDest.Click += new System.EventHandler(this.BtnSelectUnlockDest_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(546, 41);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(169, 20);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Select Target Location";
+            // 
+            // TxtUnlockDestination
+            // 
+            this.TxtUnlockDestination.Location = new System.Drawing.Point(550, 71);
+            this.TxtUnlockDestination.Name = "TxtUnlockDestination";
+            this.TxtUnlockDestination.Size = new System.Drawing.Size(430, 26);
+            this.TxtUnlockDestination.TabIndex = 4;
+            // 
+            // BtnUnlock
+            // 
+            this.BtnUnlock.Location = new System.Drawing.Point(916, 126);
+            this.BtnUnlock.Name = "BtnUnlock";
+            this.BtnUnlock.Size = new System.Drawing.Size(149, 35);
+            this.BtnUnlock.TabIndex = 3;
+            this.BtnUnlock.Text = "Unlock";
+            this.BtnUnlock.UseVisualStyleBackColor = true;
+            this.BtnUnlock.Click += new System.EventHandler(this.BtnUnlock_Click);
+            // 
+            // BtnSelectLockedFile
+            // 
+            this.BtnSelectLockedFile.Location = new System.Drawing.Point(490, 66);
+            this.BtnSelectLockedFile.Name = "BtnSelectLockedFile";
+            this.BtnSelectLockedFile.Size = new System.Drawing.Size(34, 37);
+            this.BtnSelectLockedFile.TabIndex = 2;
+            this.BtnSelectLockedFile.Text = "...";
+            this.BtnSelectLockedFile.UseVisualStyleBackColor = true;
+            this.BtnSelectLockedFile.Click += new System.EventHandler(this.BtnSelectLockedFile_Click);
+            // 
+            // TextUnlockFile
+            // 
+            this.TextUnlockFile.Location = new System.Drawing.Point(10, 71);
+            this.TextUnlockFile.Name = "TextUnlockFile";
+            this.TextUnlockFile.Size = new System.Drawing.Size(474, 26);
+            this.TextUnlockFile.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 41);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(139, 20);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Select Locked File";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.label7);
@@ -155,6 +287,59 @@
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Lock File";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(28, 99);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(78, 20);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Password";
+            // 
+            // TxtFileLockPassword
+            // 
+            this.TxtFileLockPassword.Location = new System.Drawing.Point(119, 96);
+            this.TxtFileLockPassword.Name = "TxtFileLockPassword";
+            this.TxtFileLockPassword.Size = new System.Drawing.Size(364, 26);
+            this.TxtFileLockPassword.TabIndex = 4;
+            this.TxtFileLockPassword.UseSystemPasswordChar = true;
+            // 
+            // BtnLockFile
+            // 
+            this.BtnLockFile.Location = new System.Drawing.Point(27, 128);
+            this.BtnLockFile.Name = "BtnLockFile";
+            this.BtnLockFile.Size = new System.Drawing.Size(165, 33);
+            this.BtnLockFile.TabIndex = 3;
+            this.BtnLockFile.Text = "Lock File";
+            this.BtnLockFile.UseVisualStyleBackColor = true;
+            this.BtnLockFile.Click += new System.EventHandler(this.BtnLockFile_Click);
+            // 
+            // BtnFileSelect
+            // 
+            this.BtnFileSelect.Location = new System.Drawing.Point(497, 59);
+            this.BtnFileSelect.Name = "BtnFileSelect";
+            this.BtnFileSelect.Size = new System.Drawing.Size(39, 32);
+            this.BtnFileSelect.TabIndex = 2;
+            this.BtnFileSelect.Text = "...";
+            this.BtnFileSelect.UseVisualStyleBackColor = true;
+            this.BtnFileSelect.Click += new System.EventHandler(this.BtnFileSelect_Click);
+            // 
+            // TxtLockFile
+            // 
+            this.TxtLockFile.Location = new System.Drawing.Point(27, 62);
+            this.TxtLockFile.Name = "TxtLockFile";
+            this.TxtLockFile.Size = new System.Drawing.Size(456, 26);
+            this.TxtLockFile.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(23, 38);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 20);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Select File";
             // 
             // TextLog
             // 
@@ -191,188 +376,6 @@
             this.LabelProgessPercent.TabIndex = 8;
             this.LabelProgessPercent.Text = "0%";
             // 
-            // TextSelectedDirectory
-            // 
-            this.TextSelectedDirectory.Location = new System.Drawing.Point(6, 62);
-            this.TextSelectedDirectory.Name = "TextSelectedDirectory";
-            this.TextSelectedDirectory.Size = new System.Drawing.Size(448, 26);
-            this.TextSelectedDirectory.TabIndex = 0;
-            // 
-            // ButtonDirectorySelect
-            // 
-            this.ButtonDirectorySelect.Location = new System.Drawing.Point(472, 59);
-            this.ButtonDirectorySelect.Name = "ButtonDirectorySelect";
-            this.ButtonDirectorySelect.Size = new System.Drawing.Size(40, 32);
-            this.ButtonDirectorySelect.TabIndex = 1;
-            this.ButtonDirectorySelect.Text = "...";
-            this.ButtonDirectorySelect.UseVisualStyleBackColor = true;
-            this.ButtonDirectorySelect.Click += new System.EventHandler(this.ButtonDirectorySelect_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Select Directory";
-            // 
-            // BtnLockDirectory
-            // 
-            this.BtnLockDirectory.Location = new System.Drawing.Point(6, 128);
-            this.BtnLockDirectory.Name = "BtnLockDirectory";
-            this.BtnLockDirectory.Size = new System.Drawing.Size(167, 33);
-            this.BtnLockDirectory.TabIndex = 3;
-            this.BtnLockDirectory.Text = "Lock Directory";
-            this.BtnLockDirectory.UseVisualStyleBackColor = true;
-            this.BtnLockDirectory.Click += new System.EventHandler(this.BtnLockDirectory_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 38);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Select File";
-            // 
-            // TxtLockFile
-            // 
-            this.TxtLockFile.Location = new System.Drawing.Point(27, 62);
-            this.TxtLockFile.Name = "TxtLockFile";
-            this.TxtLockFile.Size = new System.Drawing.Size(456, 26);
-            this.TxtLockFile.TabIndex = 1;
-            // 
-            // BtnFileSelect
-            // 
-            this.BtnFileSelect.Location = new System.Drawing.Point(497, 59);
-            this.BtnFileSelect.Name = "BtnFileSelect";
-            this.BtnFileSelect.Size = new System.Drawing.Size(39, 32);
-            this.BtnFileSelect.TabIndex = 2;
-            this.BtnFileSelect.Text = "...";
-            this.BtnFileSelect.UseVisualStyleBackColor = true;
-            this.BtnFileSelect.Click += new System.EventHandler(this.BtnFileSelect_Click);
-            // 
-            // BtnLockFile
-            // 
-            this.BtnLockFile.Location = new System.Drawing.Point(27, 128);
-            this.BtnLockFile.Name = "BtnLockFile";
-            this.BtnLockFile.Size = new System.Drawing.Size(165, 33);
-            this.BtnLockFile.TabIndex = 3;
-            this.BtnLockFile.Text = "Lock File";
-            this.BtnLockFile.UseVisualStyleBackColor = true;
-            this.BtnLockFile.Click += new System.EventHandler(this.BtnLockFile_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 41);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Select Locked File";
-            // 
-            // TextUnlockFile
-            // 
-            this.TextUnlockFile.Location = new System.Drawing.Point(10, 71);
-            this.TextUnlockFile.Name = "TextUnlockFile";
-            this.TextUnlockFile.Size = new System.Drawing.Size(474, 26);
-            this.TextUnlockFile.TabIndex = 1;
-            // 
-            // BtnSelectLockedFile
-            // 
-            this.BtnSelectLockedFile.Location = new System.Drawing.Point(490, 66);
-            this.BtnSelectLockedFile.Name = "BtnSelectLockedFile";
-            this.BtnSelectLockedFile.Size = new System.Drawing.Size(34, 37);
-            this.BtnSelectLockedFile.TabIndex = 2;
-            this.BtnSelectLockedFile.Text = "...";
-            this.BtnSelectLockedFile.UseVisualStyleBackColor = true;
-            this.BtnSelectLockedFile.Click += new System.EventHandler(this.BtnSelectLockedFile_Click);
-            // 
-            // BtnUnlock
-            // 
-            this.BtnUnlock.Location = new System.Drawing.Point(916, 126);
-            this.BtnUnlock.Name = "BtnUnlock";
-            this.BtnUnlock.Size = new System.Drawing.Size(149, 35);
-            this.BtnUnlock.TabIndex = 3;
-            this.BtnUnlock.Text = "Unlock";
-            this.BtnUnlock.UseVisualStyleBackColor = true;
-            this.BtnUnlock.Click += new System.EventHandler(this.BtnUnlock_Click);
-            // 
-            // TxtUnlockDestination
-            // 
-            this.TxtUnlockDestination.Location = new System.Drawing.Point(550, 71);
-            this.TxtUnlockDestination.Name = "TxtUnlockDestination";
-            this.TxtUnlockDestination.Size = new System.Drawing.Size(430, 26);
-            this.TxtUnlockDestination.TabIndex = 4;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(546, 41);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(169, 20);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Select Target Location";
-            // 
-            // BtnSelectUnlockDest
-            // 
-            this.BtnSelectUnlockDest.Location = new System.Drawing.Point(997, 66);
-            this.BtnSelectUnlockDest.Name = "BtnSelectUnlockDest";
-            this.BtnSelectUnlockDest.Size = new System.Drawing.Size(38, 36);
-            this.BtnSelectUnlockDest.TabIndex = 6;
-            this.BtnSelectUnlockDest.Text = "...";
-            this.BtnSelectUnlockDest.UseVisualStyleBackColor = true;
-            this.BtnSelectUnlockDest.Click += new System.EventHandler(this.BtnSelectUnlockDest_Click);
-            // 
-            // TxtUnlockPassword
-            // 
-            this.TxtUnlockPassword.Location = new System.Drawing.Point(94, 116);
-            this.TxtUnlockPassword.Name = "TxtUnlockPassword";
-            this.TxtUnlockPassword.Size = new System.Drawing.Size(513, 26);
-            this.TxtUnlockPassword.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 118);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 20);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Password";
-            // 
-            // TxtFileLockPassword
-            // 
-            this.TxtFileLockPassword.Location = new System.Drawing.Point(119, 96);
-            this.TxtFileLockPassword.Name = "TxtFileLockPassword";
-            this.TxtFileLockPassword.Size = new System.Drawing.Size(364, 26);
-            this.TxtFileLockPassword.TabIndex = 4;
-            // 
-            // TxtDirLockPassword
-            // 
-            this.TxtDirLockPassword.Location = new System.Drawing.Point(94, 94);
-            this.TxtDirLockPassword.Name = "TxtDirLockPassword";
-            this.TxtDirLockPassword.Size = new System.Drawing.Size(360, 26);
-            this.TxtDirLockPassword.TabIndex = 4;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(28, 99);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 20);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Password";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(10, 99);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 20);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Password";
-            // 
             // FileSelectionDialog
             // 
             this.FileSelectionDialog.FileName = "openFileDialog1";
@@ -391,8 +394,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "CipherSecMain";
-            this.Text = "CipherSecMain";
+            this.Text = "Cipher Sec";
             this.Load += new System.EventHandler(this.CipherSecMain_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

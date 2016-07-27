@@ -31,17 +31,7 @@ namespace CipherSec
 
         private void CipherSecMain_Load(object sender, EventArgs e)
         {
-            // DirectoryLock dirLock= new DirectoryLock(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip","Test");
-            //dirLock.LockDirectory();
-            // FileDecrypter lckDecrypter = new FileDecrypter(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip.lck", "Test", @"C: \Users\Aron Sajan Philip\Cipher Sec workspace\Ionic Zip New\");
-            // lckDecrypter.UnlockLCKFile();
-
-          //  FileLock fileLock = new FileLock(@"C:\Users\Aron Sajan Philip\Cipher Sec workspace\Pic.jpg", "My Pass");
-          //  fileLock.LockFile();
-
-           // FileDecrypter lckDecrypter = new FileDecrypter(@"C: \Users\Aron Sajan Philip\Cipher Sec workspace\Pic.lck", "My Pass", @"C: \Users\Aron Sajan Philip\Cipher Sec workspace\");
-          //  lckDecrypter.UnlockLCKFile();
-
+           
         }
 
         private void ButtonDirectorySelect_Click(object sender, EventArgs e)

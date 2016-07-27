@@ -8,8 +8,9 @@ namespace CipherSecBase.Utilities
 {
     public static class ConfigKeys
     {
-        public static String TempDirectory = "TempDirectory";
-        public static String ReaderBufferSize = "ReaderBufferSize";
-        public static String DeleteSource = "DeleteSource";
+        public static string TempDirectory = "TempDirectory";
+        public static string ReaderBufferSize = "ReaderBufferSize";
+        public static string DeleteSource = "DeleteSource";
+        public static string DefaultWorkingDirectoryConfigFile = "DefaultWorkingDirectoryConfigFile";
     }
 }
