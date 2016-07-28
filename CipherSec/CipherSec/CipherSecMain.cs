@@ -25,9 +25,47 @@ namespace CipherSec
             statusRelayCommunicator = new StatusRelay(ShowStatus);
             FileSelectionDialog.FileName = "";
             DirectorySelectionDialog.SelectedPath = "";
+            //Winform Initiation
+            groupBox1.Hide();
+            groupBox2.Hide();
+            groupBox3.Hide();
         }
 
-        
+        //File Lock
+        private void button1_Click(object sender, EventArgs e)
+        {
+            groupBox3.Show();
+            groupBox1.Hide();
+            groupBox2.Hide();
+        }
+        //Directory unlock
+        private void button2_Click(object sender, EventArgs e)
+        {
+            groupBox1.Show();
+            groupBox2.Hide();
+            groupBox3.Hide();
+        }
+
+        //Unlock
+        private void button3_Click(object sender, EventArgs e)
+        {
+            groupBox2.Show();
+            groupBox1.Hide();
+            groupBox3.Hide();
+        }
+
+        public bool pws_comparison(string pwd1, string pwd2)
+        {
+            if (pwd1 != "" && pwd2 != "")
+            {
+                if (pwd1 == pwd2)
+                {
+                    return true;
+                }
+                else { return false; }
+            }
+            else { return false; }
+        }
 
         private void CipherSecMain_Load(object sender, EventArgs e)
         {
@@ -92,10 +130,15 @@ namespace CipherSec
         {
             try
             {
-                TextLog.Clear();
-                DirectoryLock dirLock = new DirectoryLock(TextSelectedDirectory.Text, TxtDirLockPassword.Text, statusRelayCommunicator);
-                dirLock.LockDirectory();
-                MessageBox.Show("Directory has been locked", "Cipher Sec", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (pws_comparison(textBox_Retype1.Text, TxtDirLockPassword.Text))
+                {
+                    TextLog.Clear();
+                    DirectoryLock dirLock = new DirectoryLock(TextSelectedDirectory.Text, TxtDirLockPassword.Text, statusRelayCommunicator);
+                    dirLock.LockDirectory();
+                    MessageBox.Show("Directory has been locked", "Cipher Sec", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else { MessageBox.Show("Please enter the same password", "Cipher Sec", MessageBoxButtons.OK, MessageBoxIcon.Information); }
+                
             }
             catch(Exception Ex)
             {
@@ -108,10 +151,14 @@ namespace CipherSec
         {
             try
             {
-                TextLog.Clear();
-                FileLock fileLock = new FileLock(TxtLockFile.Text, TxtFileLockPassword.Text, statusRelayCommunicator);
-                fileLock.LockFile();
-                MessageBox.Show("File has been locked", "Cipher Sec", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (pws_comparison(textBox_Retype2.Text, TxtFileLockPassword.Text))
+                {
+                    TextLog.Clear();
+                    FileLock fileLock = new FileLock(TxtLockFile.Text, TxtFileLockPassword.Text, statusRelayCommunicator);
+                    fileLock.LockFile();
+                    MessageBox.Show("File has been locked", "Cipher Sec", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else { MessageBox.Show("Please enter the same password", "Cipher Sec", MessageBoxButtons.OK, MessageBoxIcon.Information); }
             }
             catch (Exception Ex)
             {
@@ -127,5 +174,7 @@ namespace CipherSec
                 TxtUnlockDestination.Text = DirectorySelectionDialog.SelectedPath;
             }
         }
+
+       
     }
 }

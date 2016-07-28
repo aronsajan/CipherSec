@@ -32,17 +32,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LockFileIcon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CipherSecBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CipherSecBase\bin\Debug\CipherSecBase.dll</HintPath>
-    </Reference>
     <Reference Include="CipherSecCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CipherSecCommon\bin\Debug\CipherSecCommon.dll</HintPath>
-    </Reference>
-    <Reference Include="CipherSecCore">
-      <HintPath>..\CipherSecCore\bin\Debug\CipherSecCore.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -73,6 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CipherSecMain.resx">
       <DependentUpon>CipherSecMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="CommandLineUnlockForm.resx">
       <DependentUpon>CommandLineUnlockForm.cs</DependentUpon>
@@ -98,6 +95,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LockFileIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CipherSec Initializer\CipherSec Initializer.csproj">
+      <Project>{3a595749-63a2-4276-a4f2-a74c15945611}</Project>
+      <Name>CipherSec Initializer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CipherSecBase\CipherSecBase.csproj">
+      <Project>{1e68b5c6-625f-4822-8d46-efaf617d1ad7}</Project>
+      <Name>CipherSecBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CipherSecCore\CipherSecCore.csproj">
+      <Project>{2dd59340-f48d-4d79-8c84-019e3c22f0ba}</Project>
+      <Name>CipherSecCore</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

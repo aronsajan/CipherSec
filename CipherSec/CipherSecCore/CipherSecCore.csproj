@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CipherSecBase">
-      <HintPath>..\CipherSecBase\bin\Debug\CipherSecBase.dll</HintPath>
-    </Reference>
     <Reference Include="CipherSecCommon">
       <HintPath>..\CipherSecCommon\bin\Debug\CipherSecCommon.dll</HintPath>
     </Reference>
@@ -61,7 +58,12 @@
     <Compile Include="SecureFile\FileUnlock.cs" />
     <Compile Include="SecureUnlock\FileDecrypter.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CipherSecBase\CipherSecBase.csproj">
+      <Project>{1e68b5c6-625f-4822-8d46-efaf617d1ad7}</Project>
+      <Name>CipherSecBase</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
