@@ -340,16 +340,16 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>CipherSec.exe</td><td>{EDAD989A-32FE-4991-B493-F318968FE762}</td><td>INSTALLDIR</td><td>2</td><td/><td>ciphersec.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CipherSec.vshost.exe</td><td>{2FFD4BE2-3FD9-4922-8223-9713537A0D93}</td><td>INSTALLDIR</td><td>2</td><td/><td>ciphersec.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CipherSecBase.dll</td><td>{CDE5D116-3ADB-401E-8AA2-1CA3E0101596}</td><td>INSTALLDIR</td><td>2</td><td/><td>ciphersecbase.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CipherSecCommon.dll</td><td>{3038D311-C594-42D3-AE0F-74906FDC3F42}</td><td>INSTALLDIR</td><td>2</td><td/><td>cipherseccommon.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CipherSecCore.dll</td><td>{E629D8F6-DDEB-40BC-A194-66F62F6FC252}</td><td>INSTALLDIR</td><td>2</td><td/><td>cipherseccore.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CipherSec_Initializer.exe</td><td>{3117AA79-4C1B-40CD-87FB-7A4ECE3755FF}</td><td>INSTALLDIR</td><td>2</td><td/><td>ciphersec_initializer.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CipherSec.exe</td><td>{7B4FC07D-D0AC-4512-812C-B7B11005A334}</td><td>INSTALLDIR</td><td>2</td><td/><td>ciphersec.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CipherSec.vshost.exe</td><td>{3EB718C3-C3F7-46A2-B37A-C24F77A98573}</td><td>INSTALLDIR</td><td>2</td><td/><td>ciphersec.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CipherSecBase.dll</td><td>{E2E07C0A-DFD6-4AC2-95A1-EE4AE7F06F89}</td><td>INSTALLDIR</td><td>2</td><td/><td>ciphersecbase.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CipherSecCommon.dll</td><td>{DBBA3052-45FA-4F7C-B5C5-5833AF013685}</td><td>INSTALLDIR</td><td>2</td><td/><td>cipherseccommon.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CipherSecCore.dll</td><td>{D549D976-5F8A-4DA5-A724-D3AAB567EFB4}</td><td>INSTALLDIR</td><td>2</td><td/><td>cipherseccore.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CipherSec_Initializer.exe</td><td>{EAEC3FE4-11A0-4D2B-B0F8-5F3A8CD52092}</td><td>INSTALLDIR</td><td>2</td><td/><td>ciphersec_initializer.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{D618D850-1686-4F8F-9746-C892DFA8E267}</td><td>TEMP_DIRECTORY</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{8F0A1423-9F7A-4D02-9423-8445154BF401}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{0CFF1400-0290-4F4F-BA65-231FC25BB55D}</td><td>CIPHER_SEC</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Ionic.Zip.dll</td><td>{6710A467-5334-41D3-ABB8-880B69C5DFC7}</td><td>INSTALLDIR</td><td>2</td><td/><td>ionic.zip.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Ionic.Zip.dll</td><td>{187E7B39-527A-4651-91A5-2E796B007867}</td><td>INSTALLDIR</td><td>2</td><td/><td>ionic.zip.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -929,7 +929,7 @@
 		<row><td>DatabaseFolder</td><td>ChangeFolder</td><td>SpawnDialog</td><td>InstallChangeFolder</td><td>1</td><td>1</td></row>
 		<row><td>DatabaseFolder</td><td>ChangeFolder</td><td>[_BrowseProperty]</td><td>DATABASEDIR</td><td>1</td><td>2</td></row>
 		<row><td>DatabaseFolder</td><td>Next</td><td>NewDialog</td><td>SetupType</td><td>1</td><td>1</td></row>
-		<row><td>DestinationFolder</td><td>Back</td><td>NewDialog</td><td>CustomerInformation</td><td>1</td><td>0</td></row>
+		<row><td>DestinationFolder</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>NOT Installed</td><td>0</td></row>
 		<row><td>DestinationFolder</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>1</td></row>
 		<row><td>DestinationFolder</td><td>ChangeFolder</td><td>SpawnDialog</td><td>InstallChangeFolder</td><td>1</td><td>1</td></row>
 		<row><td>DestinationFolder</td><td>ChangeFolder</td><td>[_BrowseProperty]</td><td>INSTALLDIR</td><td>1</td><td>2</td></row>
@@ -946,7 +946,7 @@
 		<row><td>InstallChangeFolder</td><td>Up</td><td>DirectoryListUp</td><td>0</td><td>1</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Back</td><td>NewDialog</td><td>SplashBitmap</td><td>Display_IsBitmapDlg</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
-		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>ReadyToInstall</td><td>1</td><td>0</td></row>
+		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>DestinationFolder</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>NOT Installed</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>DoAction</td><td>ISPrint</td><td>1</td><td>0</td></row>
@@ -981,7 +981,7 @@
 		<row><td>ReadmeInformation</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>1</td></row>
 		<row><td>ReadmeInformation</td><td>Next</td><td>NewDialog</td><td>CustomerInformation</td><td>1</td><td>1</td></row>
 		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>CustomSetup</td><td>Installed OR _IsSetupTypeMin = "Custom"</td><td>2</td></row>
-		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>NOT Installed</td><td>1</td></row>
+		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>DestinationFolder</td><td>NOT Installed</td><td>1</td></row>
 		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>MaintenanceType</td><td>Installed AND _IsMaintenance = "Reinstall"</td><td>3</td></row>
 		<row><td>ReadyToInstall</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>ReadyToInstall</td><td>InstallNow</td><td>EndDialog</td><td>Return</td><td>OutOfNoRbDiskSpace &lt;&gt; 1</td><td>0</td></row>
@@ -1153,7 +1153,9 @@
 		<row><td>AdminToolsFolder</td><td>TARGETDIR</td><td>.:Admint~1|AdminTools</td><td/><td>0</td><td/></row>
 		<row><td>AppDataFolder</td><td>TARGETDIR</td><td>.:APPLIC~1|Application Data</td><td/><td>0</td><td/></row>
 		<row><td>CIPHERSEC</td><td>ARON_SAJAN_PHILIP</td><td>CIPHER~1|CipherSec</td><td/><td>0</td><td/></row>
+		<row><td>CIPHERSEC1</td><td>CYBER_SECURITY_ESSENTIALS</td><td>CIPHER~1|CipherSec</td><td/><td>0</td><td/></row>
 		<row><td>CIPHER_SEC</td><td>AppDataFolder</td><td>CIPHER~1|Cipher Sec</td><td/><td>0</td><td/></row>
+		<row><td>CYBER_SECURITY_ESSENTIALS</td><td>ProgramFilesFolder</td><td>CYBERS~1|Cyber Security Essentials</td><td/><td>0</td><td/></row>
 		<row><td>CommonAppDataFolder</td><td>TARGETDIR</td><td>.:Common~1|CommonAppData</td><td/><td>0</td><td/></row>
 		<row><td>CommonFiles64Folder</td><td>TARGETDIR</td><td>.:Common64</td><td/><td>0</td><td/></row>
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
@@ -1162,7 +1164,7 @@
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
-		<row><td>INSTALLDIR</td><td>CIPHERSEC</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>INSTALLDIR</td><td>CIPHERSEC1</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
@@ -1193,6 +1195,8 @@
 		<row><td>WindowsVolume</td><td>TARGETDIR</td><td>.:WinRoot</td><td/><td>0</td><td/></row>
 		<row><td>aronsa_1_aron_sajan_philip</td><td>ProgramMenuFolder</td><td>ARONSA~1|Aron Sajan Philip</td><td/><td>1</td><td/></row>
 		<row><td>cipher_1_ciphersec</td><td>aronsa_1_aron_sajan_philip</td><td>CIPHER~1|CipherSec</td><td/><td>1</td><td/></row>
+		<row><td>ciphersec</td><td>cybers_1_cyber_security_essentials</td><td>CIPHER~1|ciphersec</td><td/><td>1</td><td/></row>
+		<row><td>cybers_1_cyber_security_essentials</td><td>ProgramMenuFolder</td><td>cybers~1|cyber security essentials</td><td/><td>1</td><td/></row>
 	</table>
 
 	<table name="DrLocator">
@@ -1863,6 +1867,7 @@
 		<col def="S255">ProgId_</col>
 		<col def="S64">MIME_</col>
 		<col def="s38">Feature_</col>
+		<row><td>lck</td><td>CipherSec.exe</td><td>lck.file</td><td/><td>AlwaysInstall</td></row>
 	</table>
 
 	<table name="Feature">
@@ -1908,16 +1913,19 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>ciphersec.exe</td><td>CipherSec.exe</td><td>CIPHER~1.EXE|CipherSec.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\CipherSec.exe</td><td>1</td><td/></row>
-		<row><td>ciphersec.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>CIPHER~1.CON|CipherSec.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\CipherSec.exe.config</td><td>1</td><td/></row>
-		<row><td>ciphersec.vshost.exe</td><td>CipherSec.vshost.exe</td><td>CIPHER~1.EXE|CipherSec.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\CipherSec.vshost.exe</td><td>1</td><td/></row>
-		<row><td>ciphersec.vshost.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>CIPHER~1.CON|CipherSec.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\CipherSec.vshost.exe.config</td><td>1</td><td/></row>
-		<row><td>ciphersec_initializer.exe</td><td>CipherSec_Initializer.exe</td><td>CIPHER~1.EXE|CipherSec Initializer.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec Initializer\bin\Debug\CipherSec Initializer.exe</td><td>1</td><td/></row>
-		<row><td>ciphersec_initializer.exe.co</td><td>ISX_DEFAULTCOMPONENT1</td><td>CIPHER~1.CON|CipherSec Initializer.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec Initializer\bin\Debug\CipherSec Initializer.exe.config</td><td>1</td><td/></row>
-		<row><td>ciphersecbase.dll</td><td>CipherSecBase.dll</td><td>CIPHER~1.DLL|CipherSecBase.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\CipherSecBase.dll</td><td>1</td><td/></row>
-		<row><td>cipherseccommon.dll</td><td>CipherSecCommon.dll</td><td>CIPHER~1.DLL|CipherSecCommon.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\CipherSecCommon.dll</td><td>1</td><td/></row>
-		<row><td>cipherseccore.dll</td><td>CipherSecCore.dll</td><td>CIPHER~1.DLL|CipherSecCore.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\CipherSecCore.dll</td><td>1</td><td/></row>
-		<row><td>ionic.zip.dll</td><td>Ionic.Zip.dll</td><td>IONICZ~1.DLL|Ionic.Zip.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\CipherSec\bin\Debug\Ionic.Zip.dll</td><td>1</td><td/></row>
+		<row><td>_468231579_unlock.ico</td><td>ISX_DEFAULTCOMPONENT1</td><td>146823~1.ICO|1468231579_unlock.ico</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\1468231579_unlock.ico</td><td>1</td><td/></row>
+		<row><td>ciphersec.exe</td><td>CipherSec.exe</td><td>CIPHER~1.EXE|CipherSec.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSec.exe</td><td>1</td><td/></row>
+		<row><td>ciphersec.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>CIPHER~1.CON|CipherSec.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSec.exe.config</td><td>1</td><td/></row>
+		<row><td>ciphersec.vshost.exe</td><td>CipherSec.vshost.exe</td><td>CIPHER~1.EXE|CipherSec.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSec.vshost.exe</td><td>1</td><td/></row>
+		<row><td>ciphersec.vshost.exe.config</td><td>ISX_DEFAULTCOMPONENT1</td><td>CIPHER~1.CON|CipherSec.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSec.vshost.exe.config</td><td>1</td><td/></row>
+		<row><td>ciphersec.vshost.exe.manifes</td><td>ISX_DEFAULTCOMPONENT1</td><td>CIPHER~1.MAN|CipherSec.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSec.vshost.exe.manifest</td><td>1</td><td/></row>
+		<row><td>ciphersec_initializer.exe</td><td>CipherSec_Initializer.exe</td><td>CIPHER~1.EXE|CipherSec Initializer.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSec Initializer.exe</td><td>1</td><td/></row>
+		<row><td>ciphersec_initializer.exe.co</td><td>ISX_DEFAULTCOMPONENT1</td><td>CIPHER~1.CON|CipherSec Initializer.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec Initializer\bin\Debug\CipherSec Initializer.exe.config</td><td>1</td><td/></row>
+		<row><td>ciphersecbase.dll</td><td>CipherSecBase.dll</td><td>CIPHER~1.DLL|CipherSecBase.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSecBase.dll</td><td>1</td><td/></row>
+		<row><td>cipherseccommon.dll</td><td>CipherSecCommon.dll</td><td>CIPHER~1.DLL|CipherSecCommon.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSecCommon.dll</td><td>1</td><td/></row>
+		<row><td>cipherseccore.dll</td><td>CipherSecCore.dll</td><td>CIPHER~1.DLL|CipherSecCore.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSecCore.dll</td><td>1</td><td/></row>
+		<row><td>ionic.zip.dll</td><td>Ionic.Zip.dll</td><td>IONICZ~1.DLL|Ionic.Zip.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\Ionic.Zip.dll</td><td>1</td><td/></row>
+		<row><td>lockfileicon.ico</td><td>ISX_DEFAULTCOMPONENT1</td><td>LOCKFI~1.ICO|LockFileIcon.ico</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\LockFileIcon.ico</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2059,16 +2067,16 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>CipherSec.exe</td><td/><td/><td>_73036883_0E56_45D6_9DC0_92C8A39FBF81_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CipherSec.vshost.exe</td><td/><td/><td>_D659C02B_D665_41D2_97D9_4DF6FE1140EF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CipherSecBase.dll</td><td/><td/><td>_D9ACD347_B78B_46F2_94E1_3DF609417B7E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CipherSecCommon.dll</td><td/><td/><td>_9B8FB11E_E5D7_4E7D_A659_B448C7177E06_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CipherSecCore.dll</td><td/><td/><td>_80E55094_7B42_4E2A_ADD9_C44B7E822964_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CipherSec_Initializer.exe</td><td/><td/><td>_7DFF741B_65B3_429F_9B3E_89626EA71A71_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CipherSec.exe</td><td/><td/><td>_313098F9_82FA_462F_BBAE_28ECE878C6B4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CipherSec.vshost.exe</td><td/><td/><td>_19E90BC4_304D_4374_B887_A705D3C57198_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CipherSecBase.dll</td><td/><td/><td>_18E56501_E767_4482_932A_3088A24CE6A7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CipherSecCommon.dll</td><td/><td/><td>_D0A55436_25E3_4030_AE30_44043C900516_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CipherSecCore.dll</td><td/><td/><td>_32BFCFFF_89D1_4852_8F3B_25CF2B5CB41A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CipherSec_Initializer.exe</td><td/><td/><td>_FDA79B54_9380_4A49_91AC_D87BC4A1BEA3_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_59E35C24_BDB4_4FED_91A0_7EEBE8279A3F_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_D05FD5E6_FC11_4A88_A9B8_4124A42B8805_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_220EA2D4_B100_46FA_87AD_C4B2C047C9DD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Ionic.Zip.dll</td><td/><td/><td>_83218A09_B321_4946_9DD1_BD9DB8CB13E6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Ionic.Zip.dll</td><td/><td/><td>_91D0D1B8_837D_4941_BAA2_B1D095CBB348_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2656,7 +2664,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Aron Sajan Philip</td><td>0</td><td/><td>-744211210</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Cyber Security Essentials</td><td>0</td><td/><td>-341519094</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-744173265</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-744173265</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1033</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-744210065</td></row>
@@ -3470,12 +3478,15 @@
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>-744173265</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>-744173265</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>CipherSec.exe</td><td>0</td><td/><td>-744226385</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME10</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec.vshost.exe</td><td>0</td><td/><td>-341562134</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>CipherSec.vshost.exe</td><td>0</td><td/><td>-744218193</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec.exe</td><td>0</td><td/><td>-744226640</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec.vshost.exe</td><td>0</td><td/><td>-744226640</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec.exe</td><td>0</td><td/><td>-744189034</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec.vshost.exe</td><td>0</td><td/><td>-744189034</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME7</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec Initializer.exe</td><td>0</td><td/><td>-744174666</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME8</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec Initializer.exe</td><td>0</td><td/><td>-341562134</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME9</td><td>1033</td><td>CipherSec</td><td>0</td><td/><td>-341520950</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>-744173265</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>-744173265</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>-744173265</td></row>
@@ -3765,9 +3776,10 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-744173265</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-744173265</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>-744171217</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://www.AronSajanPhilip.com</td><td>0</td><td/><td>-744211210</td></row>
-		<row><td>ID_STRING3</td><td>1033</td><td>Aron Sajan Philip</td><td>0</td><td/><td>-744211210</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.CyberSecurityEssentials.com</td><td>0</td><td/><td>-341560022</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>Cyber Security Essentials</td><td>0</td><td/><td>-341519094</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec.exe</td><td>0</td><td/><td>-744202064</td></row>
+		<row><td>ID_STRING5</td><td>1033</td><td>LAUNCH~1.EXE|Launch CipherSec.exe</td><td>0</td><td/><td>-341559862</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-744173265</td></row>
 	</table>
 
@@ -3883,6 +3895,8 @@
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
 		<row><td>CipherSec.exe1_57F76C41A09842AB988388052176F159.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>CipherSec.exe1_FA991A991D5D4A8BA3C53D3F3D598ABF.exe</td><td/><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSec.exe</td><td>0</td></row>
+		<row><td>CipherSec.exe_A43E22B2ADED41C8BAE68A9CCD962939.exe</td><td/><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Release\CipherSec.exe</td><td>0</td></row>
 		<row><td>CipherSec.exe_CF6BA53E85E04DF4A860FBAF92632531.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>CipherSec.exe_E948FF5C4C524955AF6D4C6483AA4089.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>CipherSec.exe_F5AAD1F096D645988DA7AB715779C8EF.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
@@ -3890,6 +3904,7 @@
 		<row><td>CipherSec.vshost.e_B86B1E9E35B44094B138085FF556D803.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>_40E9E4F6_6837_42C8_8772_65763A02725E</td><td/><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\LockFileIcon.ico</td><td>0</td></row>
 		<row><td>_A4F6360F_D95B_4916_A490_B5F68B44F72B</td><td/><td>C:\Users\Aron Sajan Philip\Documents\Visual Studio 2015\Projects\CipherSec\LockFileIcon.ico</td><td>0</td></row>
+		<row><td>_F4C24B87_DEB1_4D77_A4F1_86BA050F79D5</td><td/><td>C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\LockFileIcon.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4321,6 +4336,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S72">Icon_</col>
 		<col def="I2">IconIndex</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>lck.file</td><td/><td/><td>Cipher Sec Locked File</td><td>_F4C24B87_DEB1_4D77_A4F1_86BA050F79D5</td><td>0</td><td/></row>
 	</table>
 
 	<table name="Property">
@@ -4367,7 +4383,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>IS_SQLSERVER_SERVER</td><td/><td/></row>
 		<row><td>IS_SQLSERVER_USERNAME</td><td>sa</td><td/></row>
 		<row><td>InstallChoice</td><td>AR</td><td/></row>
-		<row><td>LAUNCHPROGRAM</td><td>1</td><td/></row>
 		<row><td>LAUNCHREADME</td><td>1</td><td/></row>
 		<row><td>Manufacturer</td><td>##COMPANY_NAME##</td><td/></row>
 		<row><td>PIDKEY</td><td/><td/></row>
@@ -4409,7 +4424,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
-		<row><td>SHOWLAUNCHPROGRAM</td><td>-1</td><td/></row>
+		<row><td>SHOWLAUNCHPROGRAM</td><td>0</td><td/></row>
 		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION45FULL</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
@@ -4475,7 +4490,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
 		<row><td>CipherSec.exe</td><td>CipherSec.exe</td><td/><td>cipher_1_ciphersec</td><td>2</td></row>
-		<row><td>CipherSec.vshost.exe</td><td>CipherSec.vshost.exe</td><td/><td>cipher_1_ciphersec</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4561,8 +4575,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>CipherSec.exe</td><td>cipher_1_ciphersec</td><td>##IDS_SHORTCUT_DISPLAY_NAME5##</td><td>CipherSec.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>CipherSec.exe_E948FF5C4C524955AF6D4C6483AA4089.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>CipherSec.vshost.exe</td><td>cipher_1_ciphersec</td><td>##IDS_SHORTCUT_DISPLAY_NAME6##</td><td>CipherSec.vshost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>CipherSec.vshost.e_B86B1E9E35B44094B138085FF556D803.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>CipherSec.exe</td><td>cipher_1_ciphersec</td><td>##IDS_SHORTCUT_DISPLAY_NAME9##</td><td>CipherSec.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>CipherSec.exe_A43E22B2ADED41C8BAE68A9CCD962939.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>CipherSec.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME9##</td><td>CipherSec.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>CipherSec.exe1_FA991A991D5D4A8BA3C53D3F3D598ABF.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
@@ -4693,6 +4707,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="I2">Sequence</col>
 		<col def="L255">Command</col>
 		<col def="L255">Argument</col>
+		<row><td>lck</td><td>Open</td><td/><td/><td>"%1"</td></row>
 	</table>
 
 	<table name="_Validation">

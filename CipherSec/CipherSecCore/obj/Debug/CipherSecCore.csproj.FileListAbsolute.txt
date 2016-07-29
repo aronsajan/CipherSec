@@ -18,3 +18,13 @@ C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSecCore\bin\Debug\Ciph
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSecCore\obj\Debug\CipherSecCore.csprojResolveAssemblyReference.cache
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSecCore\obj\Debug\CipherSecCore.dll
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSecCore\obj\Debug\CipherSecCore.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\bin\Debug\CipherSecCore.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\bin\Debug\CipherSecCore.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\bin\Debug\CipherSecBase.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\bin\Debug\CipherSecCommon.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\bin\Debug\Ionic.Zip.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\bin\Debug\CipherSecBase.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\bin\Debug\CipherSecCommon.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\obj\Debug\CipherSecCore.csprojResolveAssemblyReference.cache
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\obj\Debug\CipherSecCore.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecCore\obj\Debug\CipherSecCore.pdb

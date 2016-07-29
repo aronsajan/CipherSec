@@ -26,7 +26,7 @@ namespace CipherSec
             FileSelectionDialog.FileName = "";
             DirectorySelectionDialog.SelectedPath = "";
             //Winform Initiation
-            groupBox1.Hide();
+            groupBox1.Show();
             groupBox2.Hide();
             groupBox3.Hide();
         }

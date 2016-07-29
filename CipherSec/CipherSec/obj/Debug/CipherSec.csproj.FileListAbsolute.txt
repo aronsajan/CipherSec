@@ -34,3 +34,22 @@ C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSec\obj\Debug\CipherSe
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSec\obj\Debug\CipherSec.csproj.GenerateResource.Cache
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSec\obj\Debug\CipherSec.exe
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSec\obj\Debug\CipherSec.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\obj\Debug\CipherSec.csprojResolveAssemblyReference.cache
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\obj\Debug\CipherSec.CipherSecMain.resources
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\obj\Debug\CipherSec.CommandLineUnlockForm.resources
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\obj\Debug\CipherSec.Properties.Resources.resources
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\obj\Debug\CipherSec.csproj.GenerateResource.Cache
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSec.exe.config
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSec.exe
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSec.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSec Initializer.exe
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSecBase.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSecCommon.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSecCore.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\Ionic.Zip.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSec Initializer.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSecBase.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSecCore.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\bin\Debug\CipherSecCommon.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\obj\Debug\CipherSec.exe
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSec\obj\Debug\CipherSec.pdb

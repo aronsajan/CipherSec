@@ -14,3 +14,11 @@ C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSecBase\bin\Debug\Ciph
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSecBase\obj\Debug\CipherSecBase.csprojResolveAssemblyReference.cache
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSecBase\obj\Debug\CipherSecBase.dll
 C:\Users\Kevin\Documents\GitHub\CipherSec\CipherSec\CipherSecBase\obj\Debug\CipherSecBase.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecBase\bin\Debug\CipherSecBase.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecBase\bin\Debug\CipherSecBase.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecBase\bin\Debug\CipherSecCommon.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecBase\bin\Debug\Ionic.Zip.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecBase\bin\Debug\CipherSecCommon.pdb
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecBase\obj\Debug\CipherSecBase.csprojResolveAssemblyReference.cache
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecBase\obj\Debug\CipherSecBase.dll
+C:\Users\Aron Sajan Philip\Desktop\Cipher Sec Workspace\CipherSec\CipherSecBase\obj\Debug\CipherSecBase.pdb

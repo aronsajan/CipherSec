@@ -4,10 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherSec", "CipherSec\CipherSec.csproj", "{7D0E61E3-34A7-48EF-A65C-8C8C6D9F0A0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6504DCA5-3C4E-430D-B23A-2E7A13B0C7CF} = {6504DCA5-3C4E-430D-B23A-2E7A13B0C7CF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherSecBase", "CipherSecBase\CipherSecBase.csproj", "{1E68B5C6-625F-4822-8D46-EFAF617D1AD7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6504DCA5-3C4E-430D-B23A-2E7A13B0C7CF} = {6504DCA5-3C4E-430D-B23A-2E7A13B0C7CF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherSecCore", "CipherSecCore\CipherSecCore.csproj", "{2DD59340-F48D-4D79-8C84-019E3C22F0BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6504DCA5-3C4E-430D-B23A-2E7A13B0C7CF} = {6504DCA5-3C4E-430D-B23A-2E7A13B0C7CF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherSecCommon", "CipherSecCommon\CipherSecCommon.csproj", "{6504DCA5-3C4E-430D-B23A-2E7A13B0C7CF}"
 EndProject
