@@ -1,0 +1,3 @@
+1.) Run Setup.exe
+2.) Once program is installed, execute "CipherSec Initializer.exe" at the installed location.
+3.) Go to the properties of CipherSec.exe and go to compatibility, set the program to run in "Administrator" mode

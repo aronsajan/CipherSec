@@ -1193,7 +1193,7 @@
 		<row><td>USERPROFILE</td><td>TARGETDIR</td><td>.:USERPR~1|UserProfile</td><td/><td>0</td><td/></row>
 		<row><td>WindowsFolder</td><td>TARGETDIR</td><td>.:Windows</td><td/><td>0</td><td/></row>
 		<row><td>WindowsVolume</td><td>TARGETDIR</td><td>.:WinRoot</td><td/><td>0</td><td/></row>
-		<row><td>aronsa_1_aron_sajan_philip</td><td>ProgramMenuFolder</td><td>ARONSA~1|Aron Sajan Philip</td><td/><td>1</td><td/></row>
+		<row><td>aronsa_1_aron_sajan_philip</td><td>ProgramMenuFolder</td><td>CYBERS~1|Cyber Security Essentials</td><td/><td>1</td><td/></row>
 		<row><td>cipher_1_ciphersec</td><td>aronsa_1_aron_sajan_philip</td><td>CIPHER~1|CipherSec</td><td/><td>1</td><td/></row>
 		<row><td>ciphersec</td><td>cybers_1_cyber_security_essentials</td><td>CIPHER~1|ciphersec</td><td/><td>1</td><td/></row>
 		<row><td>cybers_1_cyber_security_essentials</td><td>ProgramMenuFolder</td><td>cybers~1|cyber security essentials</td><td/><td>1</td><td/></row>
@@ -4037,7 +4037,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{6E116B42-263A-42A5-8B5B-B71A745875EA}</td></row>
 		<row><td>ISUSSignature</td><td>{EF6AC851-2EDF-496A-B6CB-77A9F40E17CA}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewFileExtensions,viewISToday,viewProject,viewUI</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewFileExtensions,viewISToday,viewProject,viewUI,viewShortcuts</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
